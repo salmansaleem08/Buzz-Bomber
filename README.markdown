@@ -37,7 +37,7 @@ Buzz Bombers is a C++ game developed using the SFML library, recreating the clas
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/buzz-bombers.git
+   git clone https://github.com/salmansaleem08/buzz-bombers.git
    cd buzz-bombers
    ```
 
@@ -130,8 +130,6 @@ buzz-bombers/
    - For Visual Studio, link SFML libraries in project settings.
 
 ## Project Requirements
-Based on the project guidelines (PF PROJECT 24' - Phase 1 and Phase 2):
-
 ### Phase 1
 - **Game Recreation**: Implements core Buzz Bombers mechanics, including worker bees, killer/fast bees, hummingbird, honeycombs, beehives, and flowers.
 - **Three Levels**:
@@ -163,10 +161,6 @@ Based on the project guidelines (PF PROJECT 24' - Phase 1 and Phase 2):
   - Moves upward, shifts left/right if blocked, or forms a hive if trapped.
   - Matures into a hunter bee at the top, following standard rules.
   - -500 points for killing in child form.
-- **Bonus Features (Not Implemented)**:
-  - **View Bonus**: Doubles game grid columns, shifts view with player movement using `sf::View`.
-  - **Infant Bee Animation**: Uses sprite sheets for smooth animations.
-  - **GitHub Upload**: This README and repository organization fulfill this requirement.
 
 ## Contributing
 1. Fork the repository.
